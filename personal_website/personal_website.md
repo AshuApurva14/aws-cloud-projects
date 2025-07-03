@@ -36,6 +36,8 @@
 ### Static website architecture diagram
 
 
+![alt text](image.png)
+
 
 
 
