@@ -36,7 +36,7 @@
 ### Static website architecture diagram
 
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 
 
@@ -45,6 +45,16 @@
 
 
 ## Coding the Solution
+
+1. Keep you static files (HTML, CSS, JS) at your workspace for uploading it to S3 bucket.
+
+2. Publishing the website make it globally available.
+  - Create a **S3 Bucket** with unique name and leave **Block all Public access** option checked.
+
+     
+  
+  - Now go to newly created S3 bucket and upload your static file into the bucket.
+  - 
 
 
 ## Future Work
