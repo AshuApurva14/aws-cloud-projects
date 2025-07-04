@@ -36,7 +36,7 @@
 ### Static website architecture diagram
 
 
-![alt text](image.png)
+![alt text](https://github.com/Apurva14A/aws-cloud-projects/blob/3a0526b4f0ff83467ba64df605ccacc0401fdce5/personal_website/static_assets/images/image.png)
 
 
 
