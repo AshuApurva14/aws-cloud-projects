@@ -46,11 +46,12 @@
 
 ## Coding the Solution
 
-1. Keep you static files (HTML, CSS, JS) at your workspace for uploading it to S3 bucket.
+- Keep you static files (HTML, CSS, JS) at your workspace for uploading it to S3 bucket.
 
-2. Publishing the website make it globally available.
-  - Create a **S3 Bucket** with unique name and leave **Block all Public access** option checked.
-
+ - Publishing the website make it globally available.
+   1. Create a **S3 Bucket** with unique name and leave **Block all Public access** option checked.
+   
+  ![alt text] https://github.com/Apurva14A/aws-cloud-projects/blob/95bd49cd5bdb3174701aa852cd0e354686d644ac/personal_website/static_assets/images/s3_bucket.png
      
   
   - Now go to newly created S3 bucket and upload your static file into the bucket.
