@@ -1,0 +1,40 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Source control
+.git/
+.gitignore
+
+# IDE and build artifacts
+.idea/
+.vscode/
+build/
+dist/
+*.egg-info/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# OS-specific files and logs
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
+*.local
