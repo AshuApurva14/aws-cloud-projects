@@ -1,0 +1,18 @@
+# This is a default, which also serves as documentation
+
+default:
+    just --list
+
+
+dev-up:
+   @echo "Building and Starting the Services....!"
+   cd app && docker compose up -d
+
+dev-down:
+   @echo "Deleting and removing Services....!"
+   cd app && docker compose down
+
+dev-list:
+    @echo "List all running services...!"
+    cd app && docker compose ps
+
